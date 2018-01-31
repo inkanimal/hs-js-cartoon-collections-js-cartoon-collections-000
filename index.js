@@ -54,7 +54,11 @@ function wordWithB(words){
   for(var i =0; i < words.length; i++){
     //looking for words that start with "b" return all "b"words
     // else return []}
-if(words[i])
+if(words[i].starts==="b"){
+  return true
+}else 
+return false
+}
 
   
 }
