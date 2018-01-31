@@ -57,7 +57,10 @@ function wordWithB(words){
     //looking for words that start with "b" return all "b"words
     // else return []}
     if(words[i].startsWith"b"){
-      bWords.push(words[i])
+      bWords.push(words[i]);
+    }
+  }
+  return bWords
     
   
 
